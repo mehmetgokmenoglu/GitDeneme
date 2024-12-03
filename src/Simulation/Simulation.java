@@ -1,4 +1,4 @@
-package simulation;
+package Simulation;
 
 public class Simulation {
 }
