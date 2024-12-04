@@ -4,7 +4,7 @@ import Model.Vehicle;
 public class Main {
     public static void main(String[] args) {
         Vehicle truck = new Vehicle("Truck", TransportMethod.ROAD, 10.0, 80.0);
-        Vehicle airplane = new Vehicle("Airplane", TransportMethod.AIR, 15.0, 600.0);
+        Vehicle airplane = new Vehicle("Airplane", TransportMethod.AIR, 20.0, 600.0);
         Vehicle ship = new Vehicle("Ship", TransportMethod.SEA, 50.0, 40.0);
 
         System.out.println(truck.getName() + " Speed: " + truck.calculateSpeed() + " km/h");
