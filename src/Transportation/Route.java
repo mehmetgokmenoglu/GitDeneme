@@ -1,4 +1,4 @@
-package Model;
+package Transportation;
 
 public class Route {
 }

@@ -1,14 +1,14 @@
-package Model;
+package Transportation;
 
 public class Vehicle implements Transportable {
 
-    private String name;
+    private String vehicleType;
     private TransportMethod transportMethod;
     private double capacity;
     private double baseSpeed;
 
-    public Vehicle(String name, TransportMethod transportMethod, double capacity, double baseSpeed) {
-        this.name = name;
+    public Vehicle(String vehicleType, TransportMethod transportMethod, double capacity, double baseSpeed) {
+        this.vehicleType = vehicleType;
         this.transportMethod = transportMethod;
         this.capacity = capacity;
         this.baseSpeed = baseSpeed;
@@ -36,12 +36,12 @@ public class Vehicle implements Transportable {
 
     // Getter-Setter ve diğer metotlar
 
-    public String getName() {
-        return name;
+    public String getVehicleType() {
+        return vehicleType;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setVehicleType(String vehicleType) {
+        this.vehicleType = vehicleType;
     }
 
     public TransportMethod getTransportMethod() {
